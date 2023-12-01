@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5b9b9; /* Updated background color */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Container background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ThumbnailUpload Component */
+  .thumbnail-upload {
+    margin-bottom: 20px;
+  }
+  
+  /* TitleInput Component */
+  .title-input {
+    margin-bottom: 20px;
+  }
+  
+  /* VideoUpload Component */
+  .video-upload {
+    margin-bottom: 20px;
+  }
+  
+  /* DescriptionTextArea Component */
+  .description-text-area {
+    margin-bottom: 20px;
+  }
+  
+  /* App Component */
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* DisplayVideo Component */
+  .display-video {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* DisplayUpload Component */
+  .display-upload {
+    text-align: center;
+  }
+  
+  /* Style for navigation */
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style for video player */
+  video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional styling for form elements */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
